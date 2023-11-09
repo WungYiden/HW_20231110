@@ -3,7 +3,11 @@
 
 char function(char a)
 {
-	return a + 32;
+	if (a >= 'A'&& a <= 'Z')
+		return a + 32;
+	else
+		return a - 32;
+
 }
 
 int main()
